@@ -55,9 +55,9 @@ uint8_t spiBuffer[SPI_FRAME_SIZE] {};
 #define _XSTR2(x,y) _STR(x) _STR(y)
 #define VAR_NAME_VALUE2(var) #var " = " _XSTR2(var)
 #define _XSTR3(x,y) _STR(x) _STR(y)
-#define VAR_NAME_VALUE2(var) #var " = " _XSTR3(var)
+#define VAR_NAME_VALUE3(var) #var " = " _XSTR3(var)
 #define _XSTR4(x,y) _STR(x) _STR(y)
-#define VAR_NAME_VALUE2(var) #var " = " _XSTR4(var)
+#define VAR_NAME_VALUE4(var) #var " = " _XSTR4(var)
 
 #if defined(BOOT_WORKAROUND) && defined(PICO_XOSC_STARTUP_DELAY_MULTIPLIER)
 	#pragma message("Enabling boot workaround")
