@@ -7,7 +7,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(BOOT_WORKAROUND ON)
 
 # Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
-set(OUTPUT_DATA_PIN 14)
+set(OUTPUT_DATA_PIN 16)
 
 # Use multi-segment, starting index of second led strip or OFF to disable
 set(SECOND_SEGMENT_INDEX 220)
