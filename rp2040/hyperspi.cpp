@@ -94,10 +94,14 @@ uint8_t spiBuffer[SPI_FRAME_SIZE] {};
 			#undef LED_DRIVER
 			#define LED_DRIVER sk6812p
 			#define LED_DRIVER2 sk6812p
+			#define LED_DRIVER3 sk6812p
+			#define LED_DRIVER4 sk6812p
 	#elif NEOPIXEL_RGB
 			#undef LED_DRIVER
 			#define LED_DRIVER ws2812p
 			#define LED_DRIVER2 ws2812p
+			#define LED_DRIVER3 ws2812p
+			#define LED_DRIVER4 ws2812p
 	#else
 		#error "Parallel mode is unsupportd for selected LEDs configuration"
 	#endif
